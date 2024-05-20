@@ -6,7 +6,7 @@ int i,x=30;
 for(i=0;i<9;i++)
 {
 	
-		fillRect(x,x,10,100);
+		fillRect(x,30,10,x);
 		x+=30;
 
 	

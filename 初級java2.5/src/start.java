@@ -3,8 +3,8 @@ public class start {
 
 	public static void main(String[] args) {
 		
-        System.out.println("システムを実行しますz");
-        MyFrame framel =new ManyFigures();
+        System.out.println("システムを実行します");
+        MyFrame framel =new RecrLoop();
         
                
 	}

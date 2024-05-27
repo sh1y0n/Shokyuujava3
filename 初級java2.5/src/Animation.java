@@ -7,9 +7,9 @@ public void run() {
 		clear();
 		//(2)四角形を表示する
 		setColor(0,128,0);
-		fillRect(x,80,10,100);
+		fillOval(x,80,10,10);
 		x+=20;
-		sleep(1);
+		sleep(0.1);
 	}
 }
 }

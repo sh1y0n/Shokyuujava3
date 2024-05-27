@@ -3,7 +3,7 @@ public class Animation extends MyFrame {
 public void run() {
 	int y=100,x=30;
 	
-	while(true){
+	for(int i=0;i<=2;i++){
 	while (x<=170) {
 		//(1画面を消す)
 		clear();

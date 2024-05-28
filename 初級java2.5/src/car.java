@@ -9,9 +9,14 @@ public car(int x,int y,int vx,int vy) {
 	this.vy=vy;
 }
 public void draw (MyFrame frame) {
-	frame.fillRect(75, 30,50, 50);
-	frame.fillRect(50, 50, 100, 50);
-   frame.fillOval(60, 95, 30, 30);
-   frame.fillOval(105, 95, 30, 30);
+	frame.fillRect(x+75,y+30,50, 50);
+	frame.fillRect(x+50,y+50, 100, 50);
+   frame.fillOval(x+60, y+95, 30, 30);
+   frame.fillOval(x+105, y+95, 30, 30);
+   
+}
+public void move() {
+	x+=vx;
+
 }
 }

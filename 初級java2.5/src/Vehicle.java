@@ -1,5 +1,5 @@
 
-	public class Vehicle extends MyFrame {
+	public class Vehicle {
 		int x,y,vx,vy;
 
 public Vehicle (int x,int y,int vx,int vy) {
@@ -9,6 +9,9 @@ public Vehicle (int x,int y,int vx,int vy) {
 	this.vy=vy;
 			
 }	
+public void draw(MyFrame f) {
+	
+}
 public void move() {
 	x+=vx;
 	y+=vy;

@@ -2,7 +2,7 @@
 public class Car extends Vehicle {
 	
 public Car (int x,int y,int vx,int vy) {
-	super (x,y,vx,vy);
+	super(x,y,vx,vy);
 			
 }	
 public void draw (MyFrame frame) {
